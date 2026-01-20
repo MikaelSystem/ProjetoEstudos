@@ -161,3 +161,30 @@ h3,h4,h5,h6.indent {
     border-radius: 10px;
     box-shadow: 4px 1px 10px 1px rgba(0, 0, 0, 0.193);
 }
+
+code {
+    color: rgb(0, 217, 255);
+    background-color: rgba(0, 0, 0, 0.363);
+    border: 1px solid black;
+}
+
+.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#q1 {
+    background-color: firebrick;
+    color: white;
+}
+#q2 {
+    background-image: linear-gradient(to bottom, green, blue);
+    color: white;
+}
+#q3 {
+    background-image: url(/assets/images/Organizaçãopastasprint_mod3.png);
+    color: white;
+}
