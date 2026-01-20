@@ -163,9 +163,10 @@ h3,h4,h5,h6.indent {
 }
 
 code {
-    color: rgb(0, 217, 255);
+    color: rgb(0, 255, 98);
     background-color: rgba(0, 0, 0, 0.363);
-    border: 1px solid black;
+    border: 2px solid black;
+    box-shadow: 1px 1px 2px 1px rgba(0, 255, 0, 0.397);
 }
 
 .quadrado {
