@@ -39,6 +39,10 @@ header {
     text-decoration: none;
 }
 
+.special::before {
+    content: "⭐";
+}
+
 header>nav>a {
     text-decoration: none;
     color: rgb(146, 251, 255);
@@ -149,4 +153,11 @@ h3,h4,h5,h6.indent {
 .indent::before {
     content: "* ";
     color: rgb(255, 0, 238);
+}
+
+.org {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 1px 10px 1px rgba(0, 0, 0, 0.193);
 }
