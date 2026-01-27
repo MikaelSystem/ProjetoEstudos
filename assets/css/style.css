@@ -25,13 +25,16 @@
 }
 
 body {    
-    background-image: linear-gradient(rgb(0, 0, 83) 20%,rgba(0, 255, 251, 0.42));
-    background-attachment: scroll;
+    background: black url(https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3797460/1e361f6ed83dc2b821eabb63d04bf3c0d7b06fe5/ss_1e361f6ed83dc2b821eabb63d04bf3c0d7b06fe5.1920x1080.jpg?t=1765820388) center bottom no-repeat fixed;
+    background-size: cover;
 }
+
+/*background-image: linear-gradient(rgb(0, 0, 83) 20%,rgba(0, 255, 251, 0.42));
+    background-attachment: scroll;*/
 
 header {
     padding: 10px;
-    background-image: linear-gradient(rgb(0, 0, 83));
+    background-image: linear-gradient(rgba(0, 0, 83, 0.26));
 }
 
 .special {
@@ -78,7 +81,7 @@ header>h1,h2.pr {
 div.intro {
     margin: auto;
     background-color: rgba(100, 100, 100, 0.295);
-    width: 1100px;
+    max-width: 1100px;
     text-align: justify;
     margin-top: 20px;
     color: white;
@@ -126,12 +129,13 @@ p {
 main {
     margin: auto;
     background-color: rgba(255, 255, 255, 0.863);
-    width: 1100px;
+    max-width: 1100px;
     text-align: justify;
     margin-top: 50px;
     color: rgb(0, 0, 0);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.377);
     border-radius: 1px;
+    max-width: 1100;
 }
 
 .stripes {
@@ -169,7 +173,7 @@ code {
     box-shadow: 1px 1px 2px 1px rgba(0, 255, 0, 0.397);
 }
 
-.quadrado {
+div.quadrado {
     display: inline-block;
     border: 2px solid black;
     width: 300px;
