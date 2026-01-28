@@ -218,3 +218,9 @@ div.quadrado {
     transform: translate(-50%, -50%);
     }
 
+#projeto {
+    background-color: black;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
