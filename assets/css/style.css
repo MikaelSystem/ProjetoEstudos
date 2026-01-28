@@ -193,3 +193,28 @@ div.quadrado {
     background-image: url(/assets/images/Organizaçãopastasprint_mod3.png);
     color: white;
 }
+
+#container {
+    position: relative;
+    background-image: url(/assets/images/target001.png);
+    height: 50vh;
+    
+    background-size: 100% 100%;
+    background-color: purple;
+    
+}
+#conteudo {
+    position: absolute;
+    background-image: url(/assets/images/target001.png);
+    background-size: 100% 100%;
+    background-color: yellow;
+    
+    height: 200px;
+    width: 400px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    }
+

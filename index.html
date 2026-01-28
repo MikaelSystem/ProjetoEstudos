@@ -147,9 +147,42 @@
                 <h3>shorthands</h3>
                 <p>O uso de shorthands são linhas de códigos pequenas ao invés de grandes, preservando espaço no workspace. <br> <code>color > image > position > repeat > size > attachment</code> <br> Por algum motivo o <code>size</code> não funciona no HTML5 em shorthands, por isso use-o separado.</p>
 
+                <h2>Alinhamento</h2>
+                <p>na imagem abaixo você verá como funciona um alinhamento de um conteúdo dentro de um container, sem o uso de <code>margin</code>.</p>
+
+                <section id="container">
+                    <article id="conteudo">
+
+                    </article>
+                </section>
+
+                <p>Os comandos utilizados foram:
+                
+                <code id="itai"> 
+                    
+                    #container { <br>
+                        position: relative; <br>
+                        background-image: url(/assets/images/target001.png);<br>
+                        height: 50vh;<br>
+                        background-size: 100% 100%;<br>
+                        background-color: purple;<br>
+                        } <br>
+                    #conteudo {<br>
+                        position: absolute;<br>
+                        background-image: url(/assets/images/target001.png);<br>
+                        background-size: 100% 100%;<br>
+                        background-color: yellow;<br>
+                        height: 200px;<br>
+                        width: 400px;<br>
+                        left: 50%;<br>
+                        top: 50%;<br>
+
+                        transform: translate(-50%, -50%);<br>
+                </code>
+
                 
                     
-                
+                </p>
                 
             </div>
         </article>
