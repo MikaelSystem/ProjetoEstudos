@@ -245,7 +245,11 @@
                         </tr>
 
                     </tfoot>
-                </table>
+                </table> 
+                <br>
+                <caption>o <code>caption</code>pode ser usado para descrever as legendas de uma tabela. <br>para fazer o efeito zebrado use o comando <code>tbody  > tr:nth-child(2n)</code></caption>
+                
+
                 <h2>Anatomia das tabelas grandes</h2>
                 <p>
                         THEAD
@@ -261,7 +265,24 @@
                 <p><code>th</code><th> (Table Header): Uma célula de cabeçalho. O texto geralmente aparece em negrito e centralizado por padrão. É usada dentro do <code>thead</code> (ou no início de uma linha) para indicar o título daquela coluna/linha.</p>
 
                 <p><code>td</code>(Table Data): Uma célula de dado comum. É onde você insere a informação propriamente dita. Fica sempre dentro de uma <code>tr</code>.</p> 
-                
+
+                <h3>Efeito seguimento e SEO</h3>
+                <p>table {<br>
+                  position: relative; <br>
+                 } <br>
+                 <br>
+                thead > tr >th {<br>  
+                position: sticky; <br>
+                top: -1px;<br>
+                background-color: grey <br>
+                } <br>
+                <br>
+                Scope indica onde e em que direção o mesmo faz sentido naquela posição, indica uma melhor leitura do Google para um bom SEO. <br>
+
+                <code>scope="col"</code> = informações relacionadas na mesma coluna. <br>
+                <code>scope="row"</code> = informações relacionadas na mesma linha.
+                </p>
+                <p><code>rowspan</code> e <code>colspan</code>são comandos que mesclam tabelas.</p>
             </div>
         </article>
     </main>
