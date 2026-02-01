@@ -283,7 +283,65 @@
                 <code>scope="row"</code> = informações relacionadas na mesma linha.
                 </p>
                 <p><code>rowspan</code> e <code>colspan</code>são comandos que mesclam tabelas.</p>
+                <br>
+                <h2>Colgroup & Rowgroup</h2>
+                <table>
+                    <colgroup>
+                        <col class="cest">
+                        <col class="cpop">
+                        <col class="cth">
+                    
+                    </colgroup>
+                    
+                    <thead>
+                        <tr>
+                            <th scope="col">Estado</th>
+                            <th scope="col">População</th>
+                            <th scope="col">th</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>São Paulo</td>
+                            <td>49.190.349</td>
+                            <td>td</td>
+                        </tr>
+                        <tr>
+                            <td>Minas Gerais</td>
+                            <td>22.313.195</td>
+                            <td>td</td>
+                        </tr>
+                        <tr>
+                            <td>Rio de Janeiro</td>
+                            <td>19.314.644</td>
+                            <td>td</td>
+                        </tr>
+                        <tr>
+                            <td>Bahia</td>
+                            <td>9.124.778</td>
+                            <td>td</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th>Total de habitantes</th>
+                            <td>
+                                <strong>
+                                99.942.966
+                                </strong>
+                            </td>
+                            <td>td</td>
+                        </tr>
+
+                    </tfoot>
+                </table> 
+                <p>As cores foram atribuidas de maneira individual para cada coluna, por exemplo: <br>foram atribuidos 3 <code>scope="col"</code> para cada <code>th</code>, em seguida usamos <code>< colgroup ></code> com vários outros <code>< col ></code>dentro com classes como: <br> <strong>cest</strong>, <strong>cpop</strong> e <strong>cth</strong>. Em seguida, atribuimos as cores e pronto, mudamos toda a cor de uma coluna, sem precisar colocar um <code>background-color</code>para cada um. a mesma coisa é com o rowgroup.</p>
+                
             </div>
+
+
         </article>
     </main>
 </body>

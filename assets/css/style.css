@@ -249,3 +249,13 @@ td, th {
     border: 1px solid black;
     padding: 5px;
 }
+
+.cth {
+    background-color: rgb(26, 126, 214);
+}
+.cest {
+    background-color: rgb(173, 23, 23);
+}
+.cpop {
+    background-color: rgb(38, 158, 38);
+}
