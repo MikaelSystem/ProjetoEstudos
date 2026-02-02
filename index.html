@@ -109,17 +109,14 @@
                 <h2>Aula 02 - Colocando uma imagem de fundo no seu site</h2>
                 <p>Na imagem abaixo você verá 3 quadrados que indicam 3 comandos</p>
 
-                <div class="quadrado" id="q1">
-                    
-                </div>
-
-                <div class="quadrado" id="q2">
-
-                </div>
-
-                <div class="quadrado" id="q3">
-
-                </div>
+                <section class="quadrado">
+                    <div id="q1" class="quadrado">
+                    </div>
+                    <div id="q2" class="quadrado">
+                    </div>
+                    <div id="q3" class="quadrado">
+                    </div>
+                </section>
                 
                 <p>O quadrado 1: <br>
                 <code>background-color: firebrick;</code></p>
@@ -127,7 +124,7 @@
                 <p>O quadrado 2: <br>
                 <code>background-image: linear-gradient(to bottom, green, blue);</code></p>
 
-                <p>O quadrado 3: <br> <code>background-image: url(/assets/images/print.png);</code> <br>
+                <p>O quadrado 3: <br> <code>background-image: url(/assets/images/<br>print.png);</code> <br>
                 Inclusive no 3, você pode usar como planos de fundo em qualquer site.</p>
 
                 <p>Comandos para personalizar <br> <code>background-size: 100px 100px; #Tamanho do fundo <br>background-repeat: no-repeat; #A imagem repete?</code></p>
@@ -162,14 +159,14 @@
                     
                     <br>#container { <br>
                         position: relative; <br>
-                        background-image: url(/assets/images/target001.png);<br>
+                        background-image: url(/assets/images<br>/target001.png);<br>
                         height: 50vh;<br>
                         background-size: 100% 100%;<br>
                         background-color: purple;<br>
                         } <br>
                     #conteudo {<br>
                         position: absolute;<br>
-                        background-image: url(/assets/images/target001.png);<br>
+                        background-image: url(/assets/images<br>/target001.png);<br>
                         background-size: 100% 100%;<br>
                         background-color: yellow;<br>
                         height: 200px;<br>
@@ -201,51 +198,50 @@
                     TFOOT
                         TR,TD,TH
                 -->
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Estado</th>
-                            <th>População</th>
-                            <th>th</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>São Paulo</td>
-                            <td>49.190.349</td>
-                            <td>td</td>
-                        </tr>
-                        <tr>
-                            <td>Minas Gerais</td>
-                            <td>22.313.195</td>
-                            <td>td</td>
-                        </tr>
-                        <tr>
-                            <td>Rio de Janeiro</td>
-                            <td>19.314.644</td>
-                            <td>td</td>
-                        </tr>
-                        <tr>
-                            <td>Bahia</td>
-                            <td>9.124.778</td>
-                            <td>td</td>
-                        </tr>
-                    </tbody>
-
-                    <tfoot>
-                        <tr>
-                            <th>Total de habitantes</th>
-                            <td>
-                                <strong>
-                                99.942.966
-                                </strong>
-                            </td>
-                            <td>td</td>
-                        </tr>
-
-                    </tfoot>
-                </table> 
+                <div class="res">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Estado</th>
+                                <th>População</th>
+                                <th>th</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>São Paulo</td>
+                                <td>49.190.349</td>
+                                <td>td</td>
+                            </tr>
+                            <tr>
+                                <td>Minas Gerais</td>
+                                <td>22.313.195</td>
+                                <td>td</td>
+                            </tr>
+                            <tr>
+                                <td>Rio de Janeiro</td>
+                                <td>19.314.644</td>
+                                <td>td</td>
+                            </tr>
+                            <tr>
+                                <td>Bahia</td>
+                                <td>9.124.778</td>
+                                <td>td</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>Total de habitantes</th>
+                                <td>
+                                    <strong>
+                                    99.942.966
+                                    </strong>
+                                </td>
+                                <td>td</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
                 <br>
                 <caption>o <code>caption</code>pode ser usado para descrever as legendas de uma tabela. <br>para fazer o efeito zebrado use o comando <code>tbody  > tr:nth-child(2n)</code></caption>
                 

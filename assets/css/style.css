@@ -27,6 +27,8 @@
 body {    
     background: black url(https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3797460/1e361f6ed83dc2b821eabb63d04bf3c0d7b06fe5/ss_1e361f6ed83dc2b821eabb63d04bf3c0d7b06fe5.1920x1080.jpg?t=1765820388) center bottom no-repeat fixed;
     background-size: cover;
+    
+    
 }
 
 /*background-image: linear-gradient(rgb(0, 0, 83) 20%,rgba(0, 255, 251, 0.42));
@@ -135,6 +137,7 @@ main {
     color: rgb(0, 0, 0);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.377);
     border-radius: 1px;
+    
 }
 
 .stripes {
@@ -159,6 +162,7 @@ h3,h4,h5,h6.indent {
 }
 
 .org {
+    max-width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -172,25 +176,43 @@ code {
     box-shadow: 1px 1px 2px 1px rgba(0, 255, 0, 0.397);
 }
 
-div.quadrado {
-    display: inline-block;
-    border: 2px solid black;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
+section.quadrado {
+    text-align: center;
 }
 
 #q1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 100%;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
     background-color: firebrick;
     color: white;
+    text-align: center;
 }
 #q2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 100%;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
     background-image: linear-gradient(to bottom, green, blue);
     color: white;
+    text-align: center;
 }
-#q3 {
+#q3 {border: 2px solid black;
+    border-radius: 10px;
+    max-width: 100%;
+
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+
     background-image: url(/assets/images/Organizaçãopastasprint_mod3.png);
     color: white;
+    text-align: center;
 }
 
 #container {
@@ -206,6 +228,7 @@ div.quadrado {
     position: absolute;
     background-image: url(/assets/images/target001.png);
     background-size: 100% 100%;
+    max-width: 85%;
     background-color: yellow;
     
     height: 200px;
@@ -232,9 +255,12 @@ section#projeto>p>a:hover {
     color: greenyellow;
 }
 
+table.res {
+    max-width: 100%;
+}
 
 table {
-    position: relative;
+    
     background-color: white;
 }
 
@@ -246,8 +272,8 @@ thead > tr > th {
 
 td, th {
     border: 1px solid black;
-    padding: 5px;
-}
+    padding: 3px;
+} 
 
 .cth {
     background-color: rgb(26, 126, 214);
