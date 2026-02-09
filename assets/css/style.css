@@ -287,3 +287,9 @@ td, th {
 div#container2 {
     overflow: auto;
 }
+
+iframe {
+    border: 1px solid black;
+    height: 30vw;
+    width: 50vw;
+}
